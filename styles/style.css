@@ -1,3 +1,15 @@
 body {
-    background-color: #F0F4C3;
+    background-color: #dfe8f7;
+}
+
+img {
+	border-radius: 50%;
+	width: 10%;
+	height: auto;
+	margin-left: 88%;
+    margin-top: 0%;
+}
+
+h1 {
+    text-align: center;
 }
