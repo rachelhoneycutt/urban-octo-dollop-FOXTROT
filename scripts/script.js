@@ -7,25 +7,25 @@ $(document).ready(function(){
     $('#bioBtn').click(function() {
         $('#bio').show();
         $('#back').show();
-        $('.links').hide();
         $('#bioBtn').hide();
         $('#resumeBtn').hide();
+        $('.box').hide();
     });
 
     $('#resumeBtn').click(function() {
         $('#resume').show();
         $('#back').show();
-        $('.links').hide();
         $('#bioBtn').hide();
         $('#resumeBtn').hide();
+        $('.box').hide();
     });
 
     $('#back').click(function() {
         $('#back').hide();
         $('#bio').hide();
         $('#resume').hide();
-        $('.links').show();
         $('#bioBtn').show();
         $('#resumeBtn').show();
+        $('.box').show();
     })
 });
