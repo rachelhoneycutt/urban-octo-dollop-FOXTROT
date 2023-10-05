@@ -23,7 +23,7 @@ $(document).ready(function(){
         $('#resumeBtn').hide();
         $('.box').hide();
         $('.card').show();
-        $('.answer').show();
+        $('.answer').hide();
     });
 
     $('#back').click(function() {
