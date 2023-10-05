@@ -3,6 +3,8 @@ $(document).ready(function(){
     $('#bio').hide();
     $('#resume').hide();
     $('#back').hide();
+    $('.card').hide();
+    $('.answer').hide();
 
     $('#bioBtn').click(function() {
         $('#bio').show();
@@ -10,6 +12,8 @@ $(document).ready(function(){
         $('#bioBtn').hide();
         $('#resumeBtn').hide();
         $('.box').hide();
+        $('.card').show();
+        $('.answer').show();
     });
 
     $('#resumeBtn').click(function() {
@@ -18,6 +22,8 @@ $(document).ready(function(){
         $('#bioBtn').hide();
         $('#resumeBtn').hide();
         $('.box').hide();
+        $('.card').show();
+        $('.answer').show();
     });
 
     $('#back').click(function() {
@@ -27,5 +33,17 @@ $(document).ready(function(){
         $('#bioBtn').show();
         $('#resumeBtn').show();
         $('.box').show();
-    })
+        $('.card').hide();
+        $('.answer').hide();
+        $('#cow').hide();
+    });
 });
+
+function displayCow() {
+    let answer = document.getElementById("animal").value;
+    let cowPic = document.getElementById("cow");
+    if (answer == "Yes") {
+        cowPic.style.visibility = "visible";
+        $('#cow').show();
+    }
+}

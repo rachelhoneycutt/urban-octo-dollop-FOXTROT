@@ -39,6 +39,14 @@
             </div>
         </div>
 
+        <div class="card">
+            <img class="card-img-top" src="avatar.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Rachel Honeycutt</h4>
+              <p class="card-text">Senior Computer Science Student at the Univeristy of North Alabama</p>
+            </div>
+        </div>
+
         <div id="bio">
             <h2>Bio</h2>
             <p>Hello, I am a Senior at the Univeristy of North Alabama studying Computer Science. I chose Computer Science
@@ -92,6 +100,17 @@
         <button type="button" class="btn btn-info" id="bioBtn">Learn More About Me!</button>
         <button type="button" class="btn btn-info" id="resumeBtn">Check out my Resume!</button>
         <button type="button" class="btn btn-info" id="back">Back</button>
+        <br><br>
+
+        <form class="answer">
+            <label for="animal">Do you want to see my favorite animal?</label>
+            <input type="text" id="animal" name="animal" placeholder="Yes or No" pattern="Yes|No">
+            <button type="button" id="submit" onclick="displayCow()">Submit</button>
+        </form>
+        
+        <br>
+        <img src="cow.jpg" alt="Cow" id="cow">
+
     </div>
     
 
